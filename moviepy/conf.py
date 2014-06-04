@@ -41,7 +41,7 @@ def try_cmd(cmd):
         else:
             return True
 
-
+FFMPEG_BINARY = r'D:\install\ffmpeg\bin\ffmpeg.exe'
 if FFMPEG_BINARY is None:
     
     if try_cmd(['ffmpeg']):
