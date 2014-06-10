@@ -1,0 +1,6 @@
+README
+wffmpeg/__init__.py
+wffmpeg/ffbase.py
+wffmpeg/ffexception.py
+wffmpeg/file.py
+setup.py

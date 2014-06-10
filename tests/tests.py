@@ -7,8 +7,7 @@ http://zulko.github.io/blog/2013/09/27/read-and-write-video-frames-in-python-usi
 
 http://stackoverflow.com/questions/14731501/ffmpeg-error-at-least-one-output-file-must-be-specified：
 
-D:\data\qq_space\821090701\FileRecv\MobileFile\movie>ffmpeg -ss 0 -i ribo.mp4 -f
-ilter:v scale=768:540 -b:v 4556*1024 -t 5 test768x540.avi
+ffmpeg -ss 0 -i F:\test\video\meitun.MOV -filter:v scale=768:540 -b:v 4556*1024 -t 10 F:\test\video\meitun768x540.mp4
 
 
 
@@ -20,7 +19,7 @@ from moviepy.editor import *
 
 FFMPEG_BIN = "ffmpeg" # on Linux
 FFMPEG_BIN = "ffmpeg.exe" # on Windows
-input_fname = r'D:\data\qq_space\821090701\FileRecv\MobileFile\movie\2014.mp4'
+input_fname = r'F:\test\video\meitun.MOV'
 #读取视频文件
 
 command = [ FFMPEG_BIN,
