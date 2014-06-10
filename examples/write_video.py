@@ -21,5 +21,34 @@ video = CompositeVideoClip([clip, txt_clip])
 
 print 'start..'
 # Write the result to a file
-video.to_videofile("D:\data\qq_space\821090701\FileRecv\MobileFile\movie\2014new.avi",fps=24, codec='mpeg4')
+video.to_videofile(r"D:\data\qq_space\821090701\FileRecv\MobileFile\movie\2014new.avi",fps=24, codec='mpeg4')
 print 'end...'
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
